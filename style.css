@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 body {
-	width: 960px;
 	margin: 0 auto;
 }
 
@@ -26,4 +25,37 @@ nav li {
 /* Personal header */
 #mehbub-header {
 	text-align: center;
+}
+
+/* Joseph's Page */
+#joseph {
+	font-family: 'Fjalla One';
+	background: #ACDBFF;
+	display: block;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Joseph's Header */
+#joseph header {
+	text-align: center;
+	background: #FF841D;
+	margin: auto;
+	width: 100%;
+	padding: 1rem;
+}
+
+/* Joseph's Back Button */
+.back-btn {
+	margin-left: -.1rem;
+	position: absolute;
+	bottom: 10%;
+	color: #0055AF;
+	padding: .5rem;
+	border: 1px;
+	border-color: #0055AF;
+	border-style: solid;
+	border-radius: 0 25px 25px 0px;
 }
