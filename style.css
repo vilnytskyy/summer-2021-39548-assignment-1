@@ -41,21 +41,47 @@ a {
 /* Joseph's Header */
 #joseph header {
 	text-align: center;
-	background: #FF841D;
+	font-size: 36px;
 	margin: auto;
-	width: 100%;
+	width: 60%;
 	padding: 1rem;
+	color: #00223C;
+}
+
+#joseph h1 {
+	margin: 0 4%;
+}
+
+#joseph footer {
+	width: 100%;
+	padding: 5rem;
+	position: absolute;
+	bottom: 0;
+	background: linear-gradient(to top, #005EA7, #ACDBFF);
+	z-index: -1;
 }
 
 /* Joseph's Back Button */
 .back-btn {
-	margin-left: -.1rem;
+	font-family: inherit;
+	font-size: 20px;
+	color: #000E19;
+	background: linear-gradient(to left, #005EA7 0%, #ACDBFF 50%, #005EA7 100%);
+	margin-left: -5.1rem;
 	position: absolute;
-	bottom: 10%;
-	color: #0055AF;
+	top: 50%;
 	padding: .5rem;
 	border: 1px;
-	border-color: #0055AF;
+	border-color: #003874;
 	border-style: solid;
 	border-radius: 0 25px 25px 0px;
+	transition: box-shadow .7s;
+}
+
+.back-btn:hover {
+	box-shadow: 0 0 5px #006DC5, inset 0 0 10px #005CA5;
+}
+
+.back-btn:active {
+	color: #000E19;
 }
