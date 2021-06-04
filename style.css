@@ -78,27 +78,10 @@ a {
   transition: box-shadow 0.7s;
 }
 
-/* Andrew's Background */
-#gradientBackground {
-  height: 100vh;
-  width: 100vw;
-  background-position: center;
-  background-image: linear-gradient(250deg, #ebd728, #a7e058, #92db4d);
-  background-size: cover;
-}
-
 .back-btn:hover {
   box-shadow: 0 0 5px #006dc5, inset 0 0 10px #005ca5;
 }
 
 .back-btn:active {
   color: #000e19;
-}
-
-/*Universal .background and .front classes*/
-.background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -100;
 }
