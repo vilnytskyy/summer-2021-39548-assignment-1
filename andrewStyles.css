@@ -4,14 +4,13 @@
 }
 
 body {
-  background-color: #2a49b8;
+  background-image: linear-gradient(45deg, #082173, #31447086);
 }
 
 /* The sections for the card for information */
 .upperSection {
   width: 100%;
   height: 34vh;
-  background-color: red;
   position: relative;
 }
 
@@ -20,7 +19,6 @@ body {
   display: flex;
   width: 100%;
   height: 33vh;
-  background-color: blue;
 }
 
 .bottomLeft,
@@ -31,18 +29,15 @@ body {
 
 .bottomLeft {
   height: 33vh;
-  background-color: black;
 }
 
 .bottomRight {
   height: 33vh;
-  background-color: white;
 }
 .bottomSection {
   position: relative;
   width: 100%;
   height: 33vh;
-  background-color: green;
 }
 
 /*This is the first card that will go in the upper section*/
@@ -63,15 +58,37 @@ in another section*/
   left: 34vw;
   top: 3vh;
 }
+.favColor {
+  background-color: lightcoral;
+  position: absolute;
+  right: 29vw;
+  top: 4vh;
+}
+.favAnimal {
+  position: absolute;
+  right: 36vw;
+  top: 0;
+}
 
 /*The basic construct for each cards*/
 .introCard {
-  background-image: url("fbAvatar.png");
   background-size: cover;
   padding: 8rem 0 0;
   max-width: 20vw;
   transition: transform 300ms ease;
   overflow: hidden;
+  border-radius: 10px;
+  border-width: 5px;
+  border-color: #2e3e73;
+  border-style: solid;
+  opacity: 50%;
+}
+.favAnimal {
+  background-image: url("andrewCat.jpg");
+  max-width: 28vw;
+}
+.andrewName {
+  background-image: url("fbAvatar.png");
 }
 .favNumber {
   background-image: url("andrewNumber.png");
@@ -122,4 +139,8 @@ in another section*/
 
 .introCard:hover .introBody {
   transform: translateY(0);
+}
+
+.introCard:hover {
+  opacity: 100%;
 }
