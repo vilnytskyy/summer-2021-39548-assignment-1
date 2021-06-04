@@ -45,6 +45,8 @@ body {
 .text {
   color: black;
   font-family: sans-serif;
+  text-decoration: none;
+  font-weight: 600;
 }
 /*For neatness sake I'm putting the css for moving the card
 in another section*/
@@ -55,14 +57,14 @@ in another section*/
 }
 .favNumber {
   position: absolute;
-  left: 34vw;
+  left: 30vw;
   top: 3vh;
 }
 .favColor {
   background-color: lightcoral;
   position: absolute;
-  right: 29vw;
-  top: 4vh;
+  right: 26vw;
+  top: 3.25vh;
 }
 .favAnimal {
   position: absolute;
@@ -142,5 +144,20 @@ in another section*/
 }
 
 .introCard:hover {
+  opacity: 100%;
+}
+
+/*Creating a home bar to the left side of the screen*/
+a {
+  text-decoration: none;
+  font-size: 20pt;
+  color: white;
+  background-color: #0960e3;
+  padding: 25px;
+  border-bottom-right-radius: 30px;
+  opacity: 30%;
+}
+
+a:hover {
   opacity: 100%;
 }
