@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-	margin: 0 auto;
+  margin: 0 auto;
 }
 
 ul {
@@ -10,32 +10,32 @@ ul {
 
 /* Homepage Header */
 #home-header {
-	text-align: center;
+  text-align: center;
 }
 
 /* Navbar */
 nav {
-	text-align: center;
+  text-align: center;
 }
 
 nav li {
-	display: inline;
+  display: inline;
 }
 
 /* Personal header */
 #mehbub-header {
-	text-align: center;
+  text-align: center;
 }
 
 /*** Joseph's Page ***/
 #joseph {
-	font-family: 'Fjalla One';
-	background: #ACDBFF;
-	display: block;
+  font-family: "Fjalla One";
+  background: #acdbff;
+  display: block;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 /* Joseph's Header */
@@ -53,12 +53,12 @@ a {
 }
 
 #joseph footer {
-	width: 100%;
-	padding: 5rem;
-	position: absolute;
-	bottom: 0;
-	background: linear-gradient(to top, #005EA7, #ACDBFF);
-	z-index: -1;
+  width: 100%;
+  padding: 5rem;
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(to top, #005ea7, #acdbff);
+  z-index: -1;
 }
 
 /* About Joseph */
@@ -82,23 +82,23 @@ a {
 
 /* Joseph's Back Button */
 .back-btn {
-	font-family: inherit;
-	font-size: 20px;
-	color: #000E19;
-	background: linear-gradient(to left, #005EA7 0%, #ACDBFF 50%, #005EA7 100%);
-	margin-left: -5.1rem;
-	position: absolute;
-	top: 50%;
-	padding: .5rem;
-	border: 1px;
-	border-color: #003874;
-	border-style: solid;
-	border-radius: 0 25px 25px 0px;
-	transition: box-shadow .7s;
+  font-family: inherit;
+  font-size: 20px;
+  color: #000e19;
+  background: linear-gradient(to left, #005ea7 0%, #acdbff 50%, #005ea7 100%);
+  margin-left: -5.1rem;
+  position: absolute;
+  top: 50%;
+  padding: 0.5rem;
+  border: 1px;
+  border-color: #003874;
+  border-style: solid;
+  border-radius: 0 25px 25px 0px;
+  transition: box-shadow 0.7s;
 }
 
 .back-btn:hover {
-	box-shadow: 0 0 5px #006DC5, inset 0 0 10px #005CA5;
+  box-shadow: 0 0 5px #006dc5, inset 0 0 10px #005ca5;
 }
 
 .back-btn:active {
