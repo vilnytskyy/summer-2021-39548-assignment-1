@@ -111,3 +111,49 @@ a {
 	display: block;
 	margin: 0 auto;
 }
+
+/*** Vasyl's Page ***/
+body#vasyl{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
+
+#vasyl div{
+    /* border-top: 1px solid white; */
+    display: block;
+    height: 20vh;
+    padding: 1px 10px;
+    font-family: 'Mate SC', serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#vasyl p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#vasyl div#name{
+    background-color: #F4817B;
+    font-size: 25px
+}
+
+#vasyl div#name a{
+    text-align: left;
+}
+
+#vasyl div#color{
+    background-color: #F6C079;
+}
+
+#vasyl div#animal{
+    background-color: #A6CC8F;
+}
+
+#vasyl div#number{
+    background-color: #9ABEC1;
+}
+
+#vasyl div#images{
+    background-color: #BF9BB9;
+}
