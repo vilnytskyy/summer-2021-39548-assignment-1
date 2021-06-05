@@ -86,14 +86,14 @@ in another section*/
   opacity: 50%;
 }
 .favAnimal {
-  background-image: url("andrewCat.jpg");
+  background-image: url("pics/andrewCat.jpg");
   max-width: 28vw;
 }
 .andrewName {
-  background-image: url("fbAvatar.png");
+  background-image: url("pics/fbAvatar.png");
 }
 .favNumber {
-  background-image: url("andrewNumber.png");
+  background-image: url("pics/andrewNumber.png");
   max-width: 15vw;
 }
 .introBody {
